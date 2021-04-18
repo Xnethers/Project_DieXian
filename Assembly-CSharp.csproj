@@ -78,6 +78,7 @@
      <Compile Include="Assets\CurvedUI\Scripts\Experimental\CurvedUITMPInputFieldCaret.cs" />
      <Compile Include="Assets\CurvedUI\Scripts\Experimental\CurvedUITMPSubmesh.cs" />
      <Compile Include="Assets\CurvedUI\Scripts\OptionalDependencyAttribute.cs" />
+     <Compile Include="Assets\Scripts\Bowl.cs" />
      <None Include="Assets\CurvedUI\CurvedUI_changelog.txt" />
     <Reference Include="UnityEngine">
         <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
