@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 11439300}
   - component: {fileID: 11458836}
   - component: {fileID: 11458638}
-  - component: {fileID: 2105467387}
+  - component: {fileID: 7736107866162837645}
   m_Layer: 5
   m_Name: Button 5
   m_TagString: Untagged
@@ -210,7 +210,7 @@ MonoBehaviour:
     m_uiText: {fileID: 11491224}
   setLabelColor: 1
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
---- !u!114 &2105467387
+--- !u!114 &7736107866162837645
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -241,7 +241,7 @@ GameObject:
   - component: {fileID: 22290822}
   - component: {fileID: 11428748}
   - component: {fileID: 11419272}
-  - component: {fileID: 2105467403}
+  - component: {fileID: 2990742012624966164}
   m_Layer: 5
   m_Name: Portrait Panel
   m_TagString: Untagged
@@ -328,7 +328,7 @@ MonoBehaviour:
   m_FlexibleWidth: 1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
---- !u!114 &2105467403
+--- !u!114 &2990742012624966164
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -358,7 +358,7 @@ GameObject:
   - component: {fileID: 22474724}
   - component: {fileID: 22208160}
   - component: {fileID: 11431248}
-  - component: {fileID: 2105467399}
+  - component: {fileID: 8637921541618274557}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -426,7 +426,7 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: Continue
---- !u!114 &2105467399
+--- !u!114 &8637921541618274557
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -460,7 +460,7 @@ GameObject:
   - component: {fileID: 11486688}
   - component: {fileID: 11414360}
   - component: {fileID: 11491132}
-  - component: {fileID: 2105467377}
+  - component: {fileID: 2545458131407807030}
   m_Layer: 5
   m_Name: Button 6
   m_TagString: Untagged
@@ -655,7 +655,7 @@ MonoBehaviour:
     m_uiText: {fileID: 11446008}
   setLabelColor: 1
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
---- !u!114 &2105467377
+--- !u!114 &2545458131407807030
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -685,7 +685,7 @@ GameObject:
   - component: {fileID: 22462206}
   - component: {fileID: 22250664}
   - component: {fileID: 11471404}
-  - component: {fileID: 2105467389}
+  - component: {fileID: 5461724417595097251}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -749,7 +749,7 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &2105467389
+--- !u!114 &5461724417595097251
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -859,7 +859,7 @@ GameObject:
   - component: {fileID: 22413394}
   - component: {fileID: 22274704}
   - component: {fileID: 11489240}
-  - component: {fileID: 2105467373}
+  - component: {fileID: 8520169842366652112}
   m_Layer: 5
   m_Name: Fill
   m_TagString: Untagged
@@ -923,7 +923,7 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &2105467373
+--- !u!114 &8520169842366652112
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -954,7 +954,7 @@ GameObject:
   - component: {fileID: 22272392}
   - component: {fileID: 11461418}
   - component: {fileID: 11456194}
-  - component: {fileID: 2105467374}
+  - component: {fileID: 3944910662111776817}
   m_Layer: 5
   m_Name: Timer
   m_TagString: Untagged
@@ -1070,7 +1070,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &2105467374
+--- !u!114 &3944910662111776817
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1102,7 +1102,7 @@ GameObject:
   - component: {fileID: 11473088}
   - component: {fileID: 11427428}
   - component: {fileID: 11424772}
-  - component: {fileID: 2105467370}
+  - component: {fileID: 3615899933921202765}
   m_Layer: 5
   m_Name: Label
   m_TagString: Untagged
@@ -1205,7 +1205,7 @@ MonoBehaviour:
   m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
   m_EffectDistance: {x: 1, y: -1}
   m_UseGraphicAlpha: 1
---- !u!114 &2105467370
+--- !u!114 &3615899933921202765
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1237,7 +1237,7 @@ GameObject:
   - component: {fileID: 11448638}
   - component: {fileID: 11412044}
   - component: {fileID: 11492316}
-  - component: {fileID: 2105467415}
+  - component: {fileID: 3308973474895158496}
   m_Layer: 5
   m_Name: Alert Text
   m_TagString: Untagged
@@ -1340,7 +1340,7 @@ MonoBehaviour:
   m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
   m_EffectDistance: {x: 1, y: -1}
   m_UseGraphicAlpha: 1
---- !u!114 &2105467415
+--- !u!114 &3308973474895158496
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1373,7 +1373,7 @@ GameObject:
   - component: {fileID: 22561086}
   - component: {fileID: 9591558}
   - component: {fileID: 11443430}
-  - component: {fileID: 2105467412}
+  - component: {fileID: 4924720757506636495}
   m_Layer: 5
   m_Name: Dialogue Panel
   m_TagString: Untagged
@@ -1501,7 +1501,7 @@ MonoBehaviour:
   onBackButtonDown:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &2105467412
+--- !u!114 &4924720757506636495
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1533,7 +1533,7 @@ GameObject:
   - component: {fileID: 11408262}
   - component: {fileID: 11494896}
   - component: {fileID: 11445040}
-  - component: {fileID: 2105467378}
+  - component: {fileID: 8187528039541962248}
   m_Layer: 5
   m_Name: Button 4 Text
   m_TagString: Untagged
@@ -1631,7 +1631,7 @@ MonoBehaviour:
   m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
   m_EffectDistance: {x: 1, y: -1}
   m_UseGraphicAlpha: 1
---- !u!114 &2105467378
+--- !u!114 &8187528039541962248
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1648,7 +1648,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 335.5, y: 98}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
-  savedTextUV0: {x: 0.26757812, y: 0.12890625}
+  savedTextUV0: {x: 0.19140625, y: 0.16210938}
   savedFill: 0
 --- !u!1 &134038
 GameObject:
@@ -1665,7 +1665,7 @@ GameObject:
   - component: {fileID: 11470984}
   - component: {fileID: 11434876}
   - component: {fileID: 11408692}
-  - component: {fileID: 2105467380}
+  - component: {fileID: 5449606841134572544}
   m_Layer: 5
   m_Name: Button 4
   m_TagString: Untagged
@@ -1860,7 +1860,7 @@ MonoBehaviour:
     m_uiText: {fileID: 11408262}
   setLabelColor: 1
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
---- !u!114 &2105467380
+--- !u!114 &5449606841134572544
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1892,7 +1892,7 @@ GameObject:
   - component: {fileID: 11446698}
   - component: {fileID: 11444020}
   - component: {fileID: 11492584}
-  - component: {fileID: 2105467388}
+  - component: {fileID: 9129413637915069230}
   m_Layer: 5
   m_Name: Button 3 Text
   m_TagString: Untagged
@@ -1990,7 +1990,7 @@ MonoBehaviour:
   m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
   m_EffectDistance: {x: 1, y: -1}
   m_UseGraphicAlpha: 1
---- !u!114 &2105467388
+--- !u!114 &9129413637915069230
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2007,7 +2007,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 331.5, y: 98}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
-  savedTextUV0: {x: 0.26757812, y: 0.12890625}
+  savedTextUV0: {x: 0.19140625, y: 0.16210938}
   savedFill: 0
 --- !u!1 &134110
 GameObject:
@@ -2020,7 +2020,7 @@ GameObject:
   - component: {fileID: 22475518}
   - component: {fileID: 22269494}
   - component: {fileID: 11487226}
-  - component: {fileID: 2105467413}
+  - component: {fileID: 4120457031350071759}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -2088,7 +2088,7 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: Continue
---- !u!114 &2105467413
+--- !u!114 &4120457031350071759
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2118,7 +2118,7 @@ GameObject:
   - component: {fileID: 22470664}
   - component: {fileID: 22293314}
   - component: {fileID: 11458194}
-  - component: {fileID: 2105467366}
+  - component: {fileID: 3742850342351546991}
   m_Layer: 5
   m_Name: QTE 0 Good
   m_TagString: Untagged
@@ -2179,7 +2179,7 @@ MonoBehaviour:
     y: 0
     width: 1
     height: 1
---- !u!114 &2105467366
+--- !u!114 &3742850342351546991
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2249,7 +2249,7 @@ GameObject:
   - component: {fileID: 11469690}
   - component: {fileID: 11454168}
   - component: {fileID: 11476172}
-  - component: {fileID: 2105467393}
+  - component: {fileID: 8684275251356881402}
   m_Layer: 5
   m_Name: Button 1
   m_TagString: Untagged
@@ -2444,7 +2444,7 @@ MonoBehaviour:
     m_uiText: {fileID: 11448240}
   setLabelColor: 1
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
---- !u!114 &2105467393
+--- !u!114 &8684275251356881402
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2476,7 +2476,7 @@ GameObject:
   - component: {fileID: 11448240}
   - component: {fileID: 11401502}
   - component: {fileID: 11416364}
-  - component: {fileID: 2105467391}
+  - component: {fileID: 8946972584910282327}
   m_Layer: 5
   m_Name: Button 1 Text
   m_TagString: Untagged
@@ -2574,7 +2574,7 @@ MonoBehaviour:
   m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
   m_EffectDistance: {x: 1, y: -1}
   m_UseGraphicAlpha: 1
---- !u!114 &2105467391
+--- !u!114 &8946972584910282327
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2591,7 +2591,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 362.5, y: 52}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
-  savedTextUV0: {x: 0.26757812, y: 0.12890625}
+  savedTextUV0: {x: 0.19140625, y: 0.16210938}
   savedFill: 0
 --- !u!1 &145810
 GameObject:
@@ -2604,7 +2604,7 @@ GameObject:
   - component: {fileID: 22405316}
   - component: {fileID: 22239908}
   - component: {fileID: 11405252}
-  - component: {fileID: 2105467392}
+  - component: {fileID: 8624708720112268371}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -2668,7 +2668,7 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &2105467392
+--- !u!114 &8624708720112268371
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2698,7 +2698,7 @@ GameObject:
   - component: {fileID: 22417008}
   - component: {fileID: 22267282}
   - component: {fileID: 11427018}
-  - component: {fileID: 2105467365}
+  - component: {fileID: 4649640009158393967}
   m_Layer: 5
   m_Name: QTE 1 Evil
   m_TagString: Untagged
@@ -2759,7 +2759,7 @@ MonoBehaviour:
     y: 0
     width: 1
     height: 1
---- !u!114 &2105467365
+--- !u!114 &4649640009158393967
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2792,7 +2792,7 @@ GameObject:
   - component: {fileID: 11461058}
   - component: {fileID: 11447794}
   - component: {fileID: 11481376}
-  - component: {fileID: 2105467414}
+  - component: {fileID: 7272251365711735871}
   m_Layer: 5
   m_Name: Continue Button
   m_TagString: Untagged
@@ -2954,7 +2954,7 @@ MonoBehaviour:
   skipIfBeingClickedBySubmit: 1
   simulateButtonClick: 1
   simulateButtonDownDuration: 0.1
---- !u!114 &2105467414
+--- !u!114 &7272251365711735871
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2985,7 +2985,7 @@ GameObject:
   - component: {fileID: 22210880}
   - component: {fileID: 11435046}
   - component: {fileID: 11476334}
-  - component: {fileID: 2105467406}
+  - component: {fileID: 3945789416732358322}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -3073,7 +3073,7 @@ MonoBehaviour:
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
---- !u!114 &2105467406
+--- !u!114 &3945789416732358322
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3090,7 +3090,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 90, y: 50}
   savedColor: {r: 0.7019608, g: 0.5176471, b: 0.80784315, a: 1}
-  savedTextUV0: {x: 0.1484375, y: 0.18359375}
+  savedTextUV0: {x: 0.02734375, y: 0.25878906}
   savedFill: 0
 --- !u!1 &154208
 GameObject:
@@ -3106,7 +3106,7 @@ GameObject:
   - component: {fileID: 11409622}
   - component: {fileID: 11442362}
   - component: {fileID: 11400388}
-  - component: {fileID: 2105467405}
+  - component: {fileID: 7950787966646225740}
   m_Layer: 5
   m_Name: Subtitle Text
   m_TagString: Untagged
@@ -3251,7 +3251,7 @@ MonoBehaviour:
   onEnd:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &2105467405
+--- !u!114 &7950787966646225740
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3281,7 +3281,7 @@ GameObject:
   - component: {fileID: 22469168}
   - component: {fileID: 22236044}
   - component: {fileID: 11434522}
-  - component: {fileID: 2105467396}
+  - component: {fileID: 4463608858731690752}
   m_Layer: 5
   m_Name: Ring Background
   m_TagString: Untagged
@@ -3345,7 +3345,7 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &2105467396
+--- !u!114 &4463608858731690752
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3376,7 +3376,7 @@ GameObject:
   - component: {fileID: 22209730}
   - component: {fileID: 11498392}
   - component: {fileID: 11414238}
-  - component: {fileID: 2105467409}
+  - component: {fileID: 8663324567323243711}
   m_Layer: 5
   m_Name: Portrait Image
   m_TagString: Untagged
@@ -3460,7 +3460,7 @@ MonoBehaviour:
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
---- !u!114 &2105467409
+--- !u!114 &8663324567323243711
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3494,7 +3494,7 @@ GameObject:
   - component: {fileID: 11416726}
   - component: {fileID: 11461010}
   - component: {fileID: 11408566}
-  - component: {fileID: 2105467390}
+  - component: {fileID: 5549843133301049075}
   m_Layer: 5
   m_Name: Button 3
   m_TagString: Untagged
@@ -3689,7 +3689,7 @@ MonoBehaviour:
     m_uiText: {fileID: 11446698}
   setLabelColor: 1
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
---- !u!114 &2105467390
+--- !u!114 &5549843133301049075
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3718,9 +3718,8 @@ GameObject:
   m_Component:
   - component: {fileID: 22482120}
   - component: {fileID: 11424800}
-  - component: {fileID: 7964843887500061162}
   m_Layer: 5
-  m_Name: Wheel Standard Dialogue UI
+  m_Name: Wheel Standard Dialogue UI 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3735,7 +3734,7 @@ RectTransform:
   m_GameObject: {fileID: 161038}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.003, y: 0.003, z: 0.003}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 22498460}
   - {fileID: 22422438}
@@ -3787,14 +3786,6 @@ MonoBehaviour:
     - {fileID: 137062}
     - {fileID: 148972}
   addEventSystemIfNeeded: 1
---- !u!222 &7964843887500061162
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 161038}
-  m_CullTransparentMesh: 0
 --- !u!1 &161296
 GameObject:
   m_ObjectHideFlags: 0
@@ -3808,7 +3799,7 @@ GameObject:
   - component: {fileID: 11446008}
   - component: {fileID: 11451902}
   - component: {fileID: 11405116}
-  - component: {fileID: 2105467375}
+  - component: {fileID: 6967480535739910163}
   m_Layer: 5
   m_Name: Button 6 Text
   m_TagString: Untagged
@@ -3906,7 +3897,7 @@ MonoBehaviour:
   m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
   m_EffectDistance: {x: 1, y: -1}
   m_UseGraphicAlpha: 1
---- !u!114 &2105467375
+--- !u!114 &6967480535739910163
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3923,7 +3914,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 357.5, y: 75}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
-  savedTextUV0: {x: 0.26757812, y: 0.12890625}
+  savedTextUV0: {x: 0.19140625, y: 0.16210938}
   savedFill: 0
 --- !u!1 &162100
 GameObject:
@@ -3973,7 +3964,7 @@ GameObject:
   - component: {fileID: 22492582}
   - component: {fileID: 22271356}
   - component: {fileID: 11425658}
-  - component: {fileID: 2105467386}
+  - component: {fileID: 3884919924421983806}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -4037,7 +4028,7 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &2105467386
+--- !u!114 &3884919924421983806
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4067,7 +4058,7 @@ GameObject:
   - component: {fileID: 22430522}
   - component: {fileID: 22296304}
   - component: {fileID: 11479338}
-  - component: {fileID: 2105467376}
+  - component: {fileID: 3398592944769223453}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -4131,7 +4122,7 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &2105467376
+--- !u!114 &3398592944769223453
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4163,7 +4154,7 @@ GameObject:
   - component: {fileID: 11491224}
   - component: {fileID: 11411048}
   - component: {fileID: 11483554}
-  - component: {fileID: 2105467385}
+  - component: {fileID: 449408226731108348}
   m_Layer: 5
   m_Name: Button 5 Text
   m_TagString: Untagged
@@ -4261,7 +4252,7 @@ MonoBehaviour:
   m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
   m_EffectDistance: {x: 1, y: -1}
   m_UseGraphicAlpha: 1
---- !u!114 &2105467385
+--- !u!114 &449408226731108348
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4278,7 +4269,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 346.5, y: 75}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
-  savedTextUV0: {x: 0.26757812, y: 0.12890625}
+  savedTextUV0: {x: 0.19140625, y: 0.16210938}
   savedFill: 0
 --- !u!1 &166964
 GameObject:
@@ -4293,7 +4284,7 @@ GameObject:
   - component: {fileID: 11483942}
   - component: {fileID: 11405006}
   - component: {fileID: 11474254}
-  - component: {fileID: 2105467401}
+  - component: {fileID: 6328508265481044448}
   m_Layer: 5
   m_Name: Portrait Name
   m_TagString: Untagged
@@ -4396,7 +4387,7 @@ MonoBehaviour:
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
---- !u!114 &2105467401
+--- !u!114 &6328508265481044448
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4429,7 +4420,7 @@ GameObject:
   - component: {fileID: 22539584}
   - component: {fileID: 9571310}
   - component: {fileID: 11491200}
-  - component: {fileID: 2105467397}
+  - component: {fileID: 5659651026099872331}
   m_Layer: 5
   m_Name: Response Menu Panel
   m_TagString: Untagged
@@ -4596,7 +4587,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_hasFocus: 0
---- !u!114 &2105467397
+--- !u!114 &5659651026099872331
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4626,7 +4617,7 @@ GameObject:
   - component: {fileID: 22437562}
   - component: {fileID: 22273664}
   - component: {fileID: 11473448}
-  - component: {fileID: 2105467394}
+  - component: {fileID: 2514328703214856901}
   m_Layer: 5
   m_Name: Left Panel
   m_TagString: Untagged
@@ -4693,7 +4684,7 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &2105467394
+--- !u!114 &2514328703214856901
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4723,7 +4714,7 @@ GameObject:
   - component: {fileID: 22430700}
   - component: {fileID: 22232362}
   - component: {fileID: 11494594}
-  - component: {fileID: 2105467372}
+  - component: {fileID: 4587151942055156479}
   m_Layer: 5
   m_Name: Handle
   m_TagString: Untagged
@@ -4787,7 +4778,7 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &2105467372
+--- !u!114 &4587151942055156479
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4817,7 +4808,7 @@ GameObject:
   - component: {fileID: 22414142}
   - component: {fileID: 22214522}
   - component: {fileID: 11479550}
-  - component: {fileID: 2105467382}
+  - component: {fileID: 3916046359499154620}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -4881,7 +4872,7 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &2105467382
+--- !u!114 &3916046359499154620
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4911,7 +4902,7 @@ GameObject:
   - component: {fileID: 22467160}
   - component: {fileID: 22217200}
   - component: {fileID: 11481568}
-  - component: {fileID: 2105467379}
+  - component: {fileID: 786178682784311037}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -4975,7 +4966,7 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &2105467379
+--- !u!114 &786178682784311037
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5005,7 +4996,7 @@ GameObject:
   - component: {fileID: 22449092}
   - component: {fileID: 22272650}
   - component: {fileID: 11424530}
-  - component: {fileID: 2105467384}
+  - component: {fileID: 6083652222766353995}
   m_Layer: 5
   m_Name: Right Panel
   m_TagString: Untagged
@@ -5072,7 +5063,7 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &2105467384
+--- !u!114 &6083652222766353995
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5103,7 +5094,7 @@ GameObject:
   - component: {fileID: 22260386}
   - component: {fileID: 11443172}
   - component: {fileID: 11409678}
-  - component: {fileID: 2105467402}
+  - component: {fileID: 2157689254605596521}
   m_Layer: 5
   m_Name: Portrait Image
   m_TagString: Untagged
@@ -5187,7 +5178,7 @@ MonoBehaviour:
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
---- !u!114 &2105467402
+--- !u!114 &2157689254605596521
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5220,7 +5211,7 @@ GameObject:
   - component: {fileID: 11473336}
   - component: {fileID: 11459212}
   - component: {fileID: 11433350}
-  - component: {fileID: 2105467407}
+  - component: {fileID: 1624901304546808770}
   m_Layer: 5
   m_Name: Continue Button
   m_TagString: Untagged
@@ -5377,7 +5368,7 @@ MonoBehaviour:
   hideContinueButtonOnContinue: 0
   continueSubtitlePanel: 1
   continueAlertPanel: 1
---- !u!114 &2105467407
+--- !u!114 &1624901304546808770
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5409,7 +5400,7 @@ GameObject:
   - component: {fileID: 11404176}
   - component: {fileID: 11431590}
   - component: {fileID: 11412910}
-  - component: {fileID: 2105467408}
+  - component: {fileID: 4777481648384154464}
   m_Layer: 5
   m_Name: Portrait Name
   m_TagString: Untagged
@@ -5512,7 +5503,7 @@ MonoBehaviour:
   m_FlexibleWidth: 1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
---- !u!114 &2105467408
+--- !u!114 &4777481648384154464
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5543,7 +5534,7 @@ GameObject:
   - component: {fileID: 22275040}
   - component: {fileID: 11473078}
   - component: {fileID: 11454274}
-  - component: {fileID: 2105467395}
+  - component: {fileID: 1014630870138684181}
   m_Layer: 5
   m_Name: Panel
   m_TagString: Untagged
@@ -5634,7 +5625,7 @@ MonoBehaviour:
   m_ChildControlHeight: 1
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
---- !u!114 &2105467395
+--- !u!114 &1014630870138684181
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5666,7 +5657,7 @@ GameObject:
   - component: {fileID: 11439534}
   - component: {fileID: 11400900}
   - component: {fileID: 11497372}
-  - component: {fileID: 2105467381}
+  - component: {fileID: 4555918291409946375}
   m_Layer: 5
   m_Name: Button 2 Text
   m_TagString: Untagged
@@ -5764,7 +5755,7 @@ MonoBehaviour:
   m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
   m_EffectDistance: {x: 1, y: -1}
   m_UseGraphicAlpha: 1
---- !u!114 &2105467381
+--- !u!114 &4555918291409946375
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5781,7 +5772,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 363, y: 52}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
-  savedTextUV0: {x: 0.26757812, y: 0.12890625}
+  savedTextUV0: {x: 0.19140625, y: 0.16210938}
   savedFill: 0
 --- !u!1 &182204
 GameObject:
@@ -5798,7 +5789,7 @@ GameObject:
   - component: {fileID: 11437556}
   - component: {fileID: 22565660}
   - component: {fileID: 9501752}
-  - component: {fileID: 2105467371}
+  - component: {fileID: 3430672184120216849}
   m_Layer: 5
   m_Name: Text Field Panel
   m_TagString: Untagged
@@ -5934,7 +5925,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &2105467371
+--- !u!114 &3430672184120216849
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5965,7 +5956,7 @@ GameObject:
   - component: {fileID: 22226654}
   - component: {fileID: 11487286}
   - component: {fileID: 11449336}
-  - component: {fileID: 2105467367}
+  - component: {fileID: 8466561540682369984}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -6053,7 +6044,7 @@ MonoBehaviour:
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
---- !u!114 &2105467367
+--- !u!114 &8466561540682369984
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -6086,8 +6077,8 @@ GameObject:
   - component: {fileID: 11484238}
   - component: {fileID: 11465906}
   - component: {fileID: 114222183687700446}
-  - component: {fileID: 2105467368}
-  - component: {fileID: 2105467369}
+  - component: {fileID: 5690312581235025391}
+  - component: {fileID: 2419542398462912440}
   m_Layer: 5
   m_Name: InputField
   m_TagString: Untagged
@@ -6261,19 +6252,7 @@ MonoBehaviour:
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
---- !u!114 &2105467368
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 184652}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 32727669a74c41a4093f8796bb6916aa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &2105467369
+--- !u!114 &5690312581235025391
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -6292,6 +6271,18 @@ MonoBehaviour:
   savedColor: {r: 0, g: 0, b: 0, a: 0}
   savedTextUV0: {x: 0, y: 0}
   savedFill: 0
+--- !u!114 &2419542398462912440
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 184652}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32727669a74c41a4093f8796bb6916aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &188242
 GameObject:
   m_ObjectHideFlags: 0
@@ -6306,7 +6297,7 @@ GameObject:
   - component: {fileID: 11465586}
   - component: {fileID: 11483824}
   - component: {fileID: 11425796}
-  - component: {fileID: 2105467398}
+  - component: {fileID: 5766254770656614748}
   m_Layer: 5
   m_Name: Subtitle Text
   m_TagString: Untagged
@@ -6451,7 +6442,7 @@ MonoBehaviour:
   onEnd:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &2105467398
+--- !u!114 &5766254770656614748
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -6486,7 +6477,7 @@ GameObject:
   - component: {fileID: 11436960}
   - component: {fileID: 11475906}
   - component: {fileID: 11470230}
-  - component: {fileID: 2105467404}
+  - component: {fileID: 8076094993056596813}
   m_Layer: 5
   m_Name: PC Subtitle Panel
   m_TagString: Untagged
@@ -6677,7 +6668,7 @@ MonoBehaviour:
       m_Calls: []
   m_hasFocus: 1
   m_actorOverridingPanel: {fileID: 0}
---- !u!114 &2105467404
+--- !u!114 &8076094993056596813
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -6747,7 +6738,7 @@ GameObject:
   - component: {fileID: 11496758}
   - component: {fileID: 11422530}
   - component: {fileID: 11493208}
-  - component: {fileID: 2105467383}
+  - component: {fileID: 3002905771190118893}
   m_Layer: 5
   m_Name: Button 2
   m_TagString: Untagged
@@ -6942,7 +6933,7 @@ MonoBehaviour:
     m_uiText: {fileID: 11439534}
   setLabelColor: 1
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
---- !u!114 &2105467383
+--- !u!114 &3002905771190118893
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -6977,7 +6968,7 @@ GameObject:
   - component: {fileID: 11418962}
   - component: {fileID: 9573822}
   - component: {fileID: 11449786}
-  - component: {fileID: 2105467416}
+  - component: {fileID: 8114720595584692388}
   m_Layer: 5
   m_Name: Alert Panel
   m_TagString: Untagged
@@ -7142,7 +7133,7 @@ MonoBehaviour:
   onBackButtonDown:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &2105467416
+--- !u!114 &8114720595584692388
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -7175,7 +7166,7 @@ GameObject:
   - component: {fileID: 11442306}
   - component: {fileID: 11402038}
   - component: {fileID: 11425250}
-  - component: {fileID: 2105467400}
+  - component: {fileID: 4776616594702491315}
   m_Layer: 5
   m_Name: Continue Button
   m_TagString: Untagged
@@ -7332,7 +7323,7 @@ MonoBehaviour:
   hideContinueButtonOnContinue: 0
   continueSubtitlePanel: 1
   continueAlertPanel: 1
---- !u!114 &2105467400
+--- !u!114 &4776616594702491315
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -7363,7 +7354,7 @@ GameObject:
   - component: {fileID: 22213360}
   - component: {fileID: 11496344}
   - component: {fileID: 11480268}
-  - component: {fileID: 2105467410}
+  - component: {fileID: 5631652222832202834}
   m_Layer: 5
   m_Name: Portrait Panel
   m_TagString: Untagged
@@ -7450,7 +7441,7 @@ MonoBehaviour:
   m_FlexibleWidth: 1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
---- !u!114 &2105467410
+--- !u!114 &5631652222832202834
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -7485,7 +7476,7 @@ GameObject:
   - component: {fileID: 11428892}
   - component: {fileID: 11420886}
   - component: {fileID: 11495068}
-  - component: {fileID: 2105467411}
+  - component: {fileID: 478470359574673555}
   m_Layer: 5
   m_Name: NPC Subtitle Panel
   m_TagString: Untagged
@@ -7676,7 +7667,7 @@ MonoBehaviour:
       m_Calls: []
   m_hasFocus: 1
   m_actorOverridingPanel: {fileID: 0}
---- !u!114 &2105467411
+--- !u!114 &478470359574673555
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

@@ -24,14 +24,15 @@ namespace Valve.VR.InteractionSystem
         [Flags]
         public enum AttachmentFlags
         {
-            SnapOnAttach = 1 << 0, // The object should snap to the position of the specified attachment point on the hand.
-            DetachOthers = 1 << 1, // Other objects attached to this hand will be detached.
-            DetachFromOtherHand = 1 << 2, // This object will be detached from the other hand.
-            ParentToHand = 1 << 3, // The object will be parented to the hand.
-            VelocityMovement = 1 << 4, // The object will attempt to move to match the position and rotation of the hand.
-            TurnOnKinematic = 1 << 5, // The object will not respond to external physics.
-            TurnOffGravity = 1 << 6, // The object will not respond to external physics.
-            AllowSidegrade = 1 << 7, // The object is able to switch from a pinch grab to a grip grab. Decreases likelyhood of a good throw but also decreases likelyhood of accidental drop
+            SnapOnAttach = 1 << 0, // The object should snap to the position of the specified attachment point on the hand.對象應對齊到手上指定的附著點的位置。
+            DetachOthers = 1 << 1, // Other objects attached to this hand will be detached.連接到此手的其他對象將被分離。
+            DetachFromOtherHand = 1 << 2, // This object will be detached from the other hand.此對象將與另一隻手分離。
+            ParentToHand = 1 << 3, // The object will be parented to the hand.對象將成為手的父對象。
+            VelocityMovement = 1 << 4, // The object will attempt to move to match the position and rotation of the hand.對象將嘗試移動以匹配手的位置和旋轉。
+            TurnOnKinematic = 1 << 5, // The object will not respond to external physics.對象將不響應外部物理。
+            TurnOffGravity = 1 << 6, // The object will not respond to external physics.對象將不響應外部物理。
+            AllowSidegrade = 1 << 7, // The object is able to switch from a pinch grab to a grip grab. Decreases likelyhood of a good throw but also decreases likelyhood of accidental drop.對象能夠從捏抓切換到抓握。 減少好投擲的可能性，但也減少意外摔倒的可能性
+            myAttach = 1 << 8,
         };
 
         public const AttachmentFlags defaultAttachmentFlags = AttachmentFlags.ParentToHand |
@@ -537,8 +538,6 @@ namespace Valve.VR.InteractionSystem
                     }
                 }
             }
-
-
 
             if (attachedObject.HasAttachFlag(AttachmentFlags.TurnOnKinematic))
             {

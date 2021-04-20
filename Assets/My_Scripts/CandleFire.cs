@@ -33,7 +33,7 @@ public class CandleFire : MonoBehaviour
             {lightIntensity = Random.Range(lightRange.x,lightRange.y);}
                 break;
             case fireState.blink:
-            {lightIntensity = Random.Range(blinkRange.x,blinkRange.y);}
+            { lightIntensity = Random.Range(blinkRange.x,blinkRange.y);}
                 break;
             case fireState.slake:
             {lightIntensity = Mathf.Lerp(slakeRange.y,slakeRange.x,Time.deltaTime);}
