@@ -32,7 +32,6 @@ namespace Valve.VR.InteractionSystem
             TurnOnKinematic = 1 << 5, // The object will not respond to external physics.對象將不響應外部物理。
             TurnOffGravity = 1 << 6, // The object will not respond to external physics.對象將不響應外部物理。
             AllowSidegrade = 1 << 7, // The object is able to switch from a pinch grab to a grip grab. Decreases likelyhood of a good throw but also decreases likelyhood of accidental drop.對象能夠從捏抓切換到抓握。 減少好投擲的可能性，但也減少意外摔倒的可能性
-            myAttach = 1 << 8,
         };
 
         public const AttachmentFlags defaultAttachmentFlags = AttachmentFlags.ParentToHand |

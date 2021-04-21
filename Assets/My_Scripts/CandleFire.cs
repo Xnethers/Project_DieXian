@@ -9,12 +9,14 @@ public class CandleFire : MonoBehaviour
     public enum fireState
     { light, blink, slake };
     public fireState fire;
-    [MinMaxSlider(0,5)] 
+    [MinMaxSlider(0, 5)]
     public Vector2 lightRange;
-    [MinMaxSlider(0,5)] 
+    [MinMaxSlider(0, 5)]
     public Vector2 blinkRange;
-    [MinMaxSlider(0,5)] 
+    public float blinkTime = 0.3f;
+    [MinMaxSlider(0, 5)]
     public Vector2 slakeRange;
+    public float slakeTime = 0.3f;
     public float lightIntensity;
 
     // Start is called before the first frame update
@@ -30,16 +32,40 @@ public class CandleFire : MonoBehaviour
         switch (fire)
         {
             case fireState.light:
-            {lightIntensity = Random.Range(lightRange.x,lightRange.y);}
+                { lightIntensity = Random.Range(lightRange.x, lightRange.y); }
                 break;
             case fireState.blink:
-            { lightIntensity = Random.Range(blinkRange.x,blinkRange.y);}
+                {
+                    Timer();
+                    lightIntensity = Random.Range(blinkRange.x, blinkRange.y);
+                }
                 break;
             case fireState.slake:
-            {lightIntensity = Mathf.Lerp(slakeRange.y,slakeRange.x,Time.deltaTime);}
+                {
+                    Timer();
+                    lightIntensity = Mathf.Lerp(slakeRange.x, slakeRange.y, st);
+                }
                 break;
         }
-        
+    }
 
+    public float st = 1;
+    void Timer()
+    {
+        if (fire == fireState.blink)
+        {
+            if (st > 0)
+            { st -= Time.deltaTime / blinkTime; }
+            else
+            { st = 1; }
+
+        }
+        else if (fire == fireState.slake)
+        {
+            if (st > 0)
+            { st -= Time.deltaTime / slakeTime; }
+            else
+            { st = 1; }
+        }
     }
 }
