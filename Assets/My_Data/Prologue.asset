@@ -557,7 +557,7 @@ MonoBehaviour:
       - originConversationID: 2
         originDialogueID: 7
         destinationConversationID: 2
-        destinationDialogueID: 9
+        destinationDialogueID: 10
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -628,7 +628,7 @@ MonoBehaviour:
       - originConversationID: 2
         originDialogueID: 8
         destinationConversationID: 2
-        destinationDialogueID: 10
+        destinationDialogueID: 9
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -638,7 +638,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 416.3699
+        x: 424.1824
         y: 388.78738
         width: 160
         height: 30
@@ -703,7 +703,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 234.3699
+        x: 428.1198
         y: 470.7922
         width: 160
         height: 30
@@ -768,8 +768,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 419.3699
-        y: 471.33273
+        x: 234.995
+        y: 469.77026
         width: 160
         height: 30
     - id: 11
@@ -995,7 +995,7 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: "ShowAlert(\"\u653E\u5728\u789F\u5B50\u4E0A\u7684\u624B\uFF0C\u7D55\u5C0D\u4E0D\u8981\u79FB\u958B\");"
+      userScript: 
       onExecute:
         m_PersistentCalls:
           m_Calls: []
