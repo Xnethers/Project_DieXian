@@ -390,6 +390,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wheel Standard Dialogue UI 1
       objectReference: {fileID: 0}
+    - target: {fileID: 11470230, guid: d0793aa985b5eee429928959883c2b8e, type: 3}
+      propertyPath: visibility
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 22402752, guid: d0793aa985b5eee429928959883c2b8e, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0

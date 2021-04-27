@@ -32,9 +32,7 @@ public class Bowl : MonoBehaviour
             if (isHold)
             { }
             else
-            {
-                QuestLog.SetQuestState("不要移開", QuestState.Failure);
-            }
+            { QuestLog.SetQuestState("不要移開", QuestState.Failure); }
         }
     }
     private void HandHoverUpdate(Hand hand)
@@ -42,7 +40,7 @@ public class Bowl : MonoBehaviour
         dst.OnUse();
         _hand = hand;
         GrabTypes startingGrabType = hand.GetGrabStarting();
-        bool isGrabEnding = hand.IsGrabEnding(this.gameObject);
+        bool isGrabEnding = hand.IsGrabEnding(this.gameObject); Debug.LogError(isGrabEnding);
 
         if (interactable.attachedToHand == null && startingGrabType != GrabTypes.None)
         {
@@ -52,6 +50,7 @@ public class Bowl : MonoBehaviour
         else if (isGrabEnding)
         {
             isHold = false;
+            DialogueLua.SetVariable("IsHold", false);
         }
     }
 
@@ -66,7 +65,7 @@ public class Bowl : MonoBehaviour
         if (isHold)
         {
             isHold = false;
-            DialogueLua.SetVariable("IsHold", true);
+            DialogueLua.SetVariable("IsHold", false);
         }
     }
 

@@ -234,17 +234,17 @@ PrefabInstance:
     - target: {fileID: 2408775441870196255, guid: 6070a2c518282c04d9a8838e3d6eb6e2,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.567
+      value: 1.3276988
       objectReference: {fileID: 0}
     - target: {fileID: 2408775441870196255, guid: 6070a2c518282c04d9a8838e3d6eb6e2,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.298
+      value: 1.2874336
       objectReference: {fileID: 0}
     - target: {fileID: 2408775441870196255, guid: 6070a2c518282c04d9a8838e3d6eb6e2,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.529
+      value: 1.5914458
       objectReference: {fileID: 0}
     - target: {fileID: 2408775441870196255, guid: 6070a2c518282c04d9a8838e3d6eb6e2,
         type: 3}
@@ -293,6 +293,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2575118993832417425, guid: 6070a2c518282c04d9a8838e3d6eb6e2,
         type: 3}
+      propertyPath: prewarm
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2575118993832417425, guid: 6070a2c518282c04d9a8838e3d6eb6e2,
+        type: 3}
       propertyPath: TrailModule.enabled
       value: 0
       objectReference: {fileID: 0}
@@ -300,6 +305,11 @@ PrefabInstance:
         type: 3}
       propertyPath: LightsModule.enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2575118993832417425, guid: 6070a2c518282c04d9a8838e3d6eb6e2,
+        type: 3}
+      propertyPath: InitialModule.startSpeed.scalar
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2575118993832417425, guid: 6070a2c518282c04d9a8838e3d6eb6e2,
         type: 3}
