@@ -4593,6 +4593,7 @@ MonoBehaviour:
   fireLight: {fileID: 0}
   fire: 0
   lightRange: {x: 1.24, y: 1.7512327}
+  lightTime: 0.3
   blinkRange: {x: 0.2841096, y: 1.6741097}
   blinkTime: 0.3
   slakeRange: {x: 0, y: 0}
@@ -4788,6 +4789,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b9a305e18de0c04dbd257a21cd47087, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sharedProfile: {fileID: 0}
+  isGlobal: 0
+  blendDistance: 0
+  weight: 1
+  priority: 0
 --- !u!4 &878922714
 Transform:
   m_ObjectHideFlags: 0
@@ -5346,6 +5352,54 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 948f4100a11a5c24981795d21301da5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  volumeTrigger: {fileID: 0}
+  volumeLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  stopNaNPropagation: 1
+  finalBlitToCameraTarget: 0
+  antialiasingMode: 0
+  temporalAntialiasing:
+    jitterSpread: 0.75
+    sharpness: 0.25
+    stationaryBlending: 0.95
+    motionBlending: 0.85
+  subpixelMorphologicalAntialiasing:
+    quality: 2
+  fastApproximateAntialiasing:
+    fastMode: 0
+    keepAlpha: 0
+  fog:
+    enabled: 1
+    excludeSkybox: 1
+  debugLayer:
+    lightMeter:
+      width: 512
+      height: 256
+      showCurves: 1
+    histogram:
+      width: 512
+      height: 256
+      channel: 3
+    waveform:
+      exposure: 0.12
+      height: 256
+    vectorscope:
+      size: 256
+      exposure: 0.12
+    overlaySettings:
+      linearDepth: 0
+      motionColorIntensity: 4
+      motionGridSize: 64
+      colorBlindnessType: 0
+      colorBlindnessStrength: 1
+  m_Resources: {fileID: 0}
+  m_ShowToolkit: 0
+  m_ShowCustomSorter: 0
+  breakBeforeColorGrading: 0
+  m_BeforeTransparentBundles: []
+  m_BeforeStackBundles: []
+  m_AfterStackBundles: []
 --- !u!1 &979304113
 GameObject:
   m_ObjectHideFlags: 0
@@ -12436,6 +12490,12 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4698988121634474444, guid: 859e58885a794b54bae9f4ec4084fd98,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: -2432090755550338912, guid: 11664e09515bca347a0a75d7aabc55a2,
+        type: 3}
     - target: {fileID: 7030457264387555806, guid: 859e58885a794b54bae9f4ec4084fd98,
         type: 3}
       propertyPath: m_RootOrder
@@ -12444,17 +12504,17 @@ PrefabInstance:
     - target: {fileID: 7030457264387555806, guid: 859e58885a794b54bae9f4ec4084fd98,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.165
+      value: 2.32
       objectReference: {fileID: 0}
     - target: {fileID: 7030457264387555806, guid: 859e58885a794b54bae9f4ec4084fd98,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.54989
+      value: 1.4734
       objectReference: {fileID: 0}
     - target: {fileID: 7030457264387555806, guid: 859e58885a794b54bae9f4ec4084fd98,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -3.271
+      value: 0.14
       objectReference: {fileID: 0}
     - target: {fileID: 7030457264387555806, guid: 859e58885a794b54bae9f4ec4084fd98,
         type: 3}
@@ -12500,6 +12560,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Plate
+      objectReference: {fileID: 0}
+    - target: {fileID: 8075960107561561432, guid: 859e58885a794b54bae9f4ec4084fd98,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 859e58885a794b54bae9f4ec4084fd98, type: 3}
