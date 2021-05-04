@@ -89,6 +89,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7226743521796346922}
   - component: {fileID: 7226743521796346923}
+  - component: {fileID: 1244340667693867717}
   m_Layer: 0
   m_Name: Can Light
   m_TagString: Untagged
@@ -171,6 +172,28 @@ Light:
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &1244340667693867717
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7226743521796346901}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cc62608863e434a80d0361d8464a33, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fireLight: {fileID: 0}
+  fire: 0
+  lightRange: {x: 2, y: 3.6}
+  lightTime: 0.1
+  blinkRange: {x: 2.9963953, y: 4.3863955}
+  blinkTime: 0.3
+  slakeRange: {x: 0, y: 3.6}
+  slakeTime: 1
+  lightIntensity: 0
+  st: 1
 --- !u!1 &7533366729245353807
 GameObject:
   m_ObjectHideFlags: 0

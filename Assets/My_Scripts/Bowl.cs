@@ -40,7 +40,7 @@ public class Bowl : MonoBehaviour
         dst.OnUse();
         _hand = hand;
         GrabTypes startingGrabType = hand.GetGrabStarting();
-        bool isGrabEnding = hand.IsGrabEnding(this.gameObject); Debug.LogError(isGrabEnding);
+        bool isGrabEnding = hand.IsGrabEnding(this.gameObject); //Debug.LogError(isGrabEnding);
 
         if (interactable.attachedToHand == null && startingGrabType != GrabTypes.None)
         {
