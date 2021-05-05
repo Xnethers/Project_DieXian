@@ -29,8 +29,8 @@ public class GameManager : MonoBehaviour
 #endif
     }
 
-    public void FadeIn(float duration = 0.5f)
-    { SteamVR_Fade.View(Color.black, duration); }
+    public void FadeIn(float duration = 0.5f) //預設時間0.5秒
+    { SteamVR_Fade.View(Color.black, duration); } //0.5秒內畫面變黑色
 
     public void FadeOut(float duration = 0.5f)
     { SteamVR_Fade.View(Color.clear, duration); }
