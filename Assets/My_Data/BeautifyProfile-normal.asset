@@ -114,10 +114,10 @@ MonoBehaviour:
   depthOfFieldTransparencySupportDownsampling: 1
   depthOfFieldExclusionBias: 0.99
   depthOfFieldDistance: 1
-  depthOfFieldFocusSpeed: 0.2
+  depthOfFieldFocusSpeed: 2
   depthOfFieldDownsampling: 2
   depthOfFieldMaxSamples: 4
-  depthOfFieldFocalLength: 0.05
+  depthOfFieldFocalLength: 0.023
   depthOfFieldAperture: 2.8
   depthOfFieldForegroundBlur: 1
   depthOfFieldForegroundBlurHQ: 0

@@ -138,6 +138,11 @@ namespace Valve.VR.InteractionSystem
 		{
             //Debug.Log("<b>[SteamVR Interaction]</b> Pickup: " + hand.GetGrabStarting().ToString());
 
+            
+
+            this.rigidbody.useGravity = true;
+            this.tag = "love";
+
             hadInterpolation = this.rigidbody.interpolation;
 
             attached = true;
@@ -183,12 +188,16 @@ namespace Valve.VR.InteractionSystem
         {
             if (hand.noSteamVRFallbackCamera && releaseVelocityStyle != ReleaseStyle.NoChange)
                 releaseVelocityStyle = ReleaseStyle.ShortEstimation; // only type that works with fallback hand is short estimation.
+            
+            this.rigidbody.useGravity = true;
+            this.tag = "love";
 
             switch (releaseVelocityStyle)
             {
                 case ReleaseStyle.ShortEstimation:
                     if (velocityEstimator != null)
                     {
+                        
                         velocityEstimator.FinishEstimatingVelocity();
                         velocity = velocityEstimator.GetVelocityEstimate();
                         angularVelocity = velocityEstimator.GetAngularVelocityEstimate();
@@ -202,14 +211,17 @@ namespace Valve.VR.InteractionSystem
                     }
                     break;
                 case ReleaseStyle.AdvancedEstimation:
+                    
                     hand.GetEstimatedPeakVelocities(out velocity, out angularVelocity);
                     break;
                 case ReleaseStyle.GetFromHand:
+                    
                     velocity = hand.GetTrackedObjectVelocity(releaseVelocityTimeOffset);
                     angularVelocity = hand.GetTrackedObjectAngularVelocity(releaseVelocityTimeOffset);
                     break;
                 default:
                 case ReleaseStyle.NoChange:
+                    
                     velocity = rigidbody.velocity;
                     angularVelocity = rigidbody.angularVelocity;
                     break;

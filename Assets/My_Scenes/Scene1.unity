@@ -3061,10 +3061,10 @@ MonoBehaviour:
   _depthOfFieldTransparencySupportDownsampling: 1
   _depthOfFieldExclusionBias: 0.99
   _depthOfFieldDistance: 1
-  _depthOfFieldFocusSpeed: 0.2
+  _depthOfFieldFocusSpeed: 2
   _depthOfFieldDownsampling: 2
   _depthOfFieldMaxSamples: 4
-  _depthOfFieldFocalLength: 0.05
+  _depthOfFieldFocalLength: 0.023
   _depthOfFieldAperture: 2.8
   _depthOfFieldForegroundBlur: 1
   _depthOfFieldForegroundBlurHQ: 0
@@ -3132,7 +3132,7 @@ MonoBehaviour:
   _pixelateDownscale: 0
   _antialiasStrength: 5
   _antialiasDepthThreshold: 0.001
-  isDirty: 1
+  isDirty: 0
   bMat: {fileID: 0}
 --- !u!1001 &927386741
 PrefabInstance:
@@ -5296,6 +5296,16 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6658813486940377219, guid: dc06161b6d97feb419f45f03b62e14b9,
+        type: 3}
+      propertyPath: pointerTransformOverride
+      value: 
+      objectReference: {fileID: 1531380667}
+    - target: {fileID: 6658813486940377219, guid: dc06161b6d97feb419f45f03b62e14b9,
+        type: 3}
+      propertyPath: gazeTimedClickProgressImage
+      value: 
+      objectReference: {fileID: 1153291029}
     - target: {fileID: 7211935110279450537, guid: dc06161b6d97feb419f45f03b62e14b9,
         type: 3}
       propertyPath: _head
@@ -6927,6 +6937,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9c149b100388e04284092fca2fdaf33, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  updateDynamically: 1
 --- !u!4 &1865051298
 Transform:
   m_ObjectHideFlags: 0
@@ -8581,11 +8592,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Size.z
       value: 0.09425099
-      objectReference: {fileID: 0}
-    - target: {fileID: 4540773605124835727, guid: afde60bdbb766e5469fc2a8fd0d296fb,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4540773605124835727, guid: afde60bdbb766e5469fc2a8fd0d296fb,
         type: 3}

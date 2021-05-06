@@ -2,11 +2,23 @@
 using System.Collections.Generic;
 using UnityEngine;
 using Valve.VR;
+using Valve.VR.InteractionSystem;
 using UnityEngine.SceneManagement;
+using XRSettings = UnityEngine.VR.VRSettings;
+using XRDevice = UnityEngine.VR.VRDevice;
 
 public class GameManager : MonoBehaviour
 {
+    protected SteamVR_Events.Action renderModelLoadedAction;
     private static GameManager instance;
+    [Tooltip("Update transforms of components at runtime to reflect user action.")]
+    public bool updateDynamically = true;
+
+    protected void Awake()
+    {
+
+    }
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -19,6 +31,9 @@ public class GameManager : MonoBehaviour
         {
             Debug.Log("menu button pressed"); // the menu button on the controller
         }
+        // Update component transforms dynamically.
+        // if (updateDynamically)
+        // { UpdateComponents(OpenVR.RenderModels); }
     }
 
     public void Exit()
