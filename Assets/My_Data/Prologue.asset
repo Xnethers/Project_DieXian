@@ -2271,7 +2271,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: 'AnimatorPlayWait(BowlAnimation4,Bowl,0);
+        value: 'AnimatorPlayWait(BowlAnimation6,Bowl,0);
 
           AnimatorPlay(Idle,Bowl);'
         type: 0
@@ -2715,7 +2715,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: 'AnimatorPlayWait(BowlAnimation4,Bowl,0);
+        value: 'AnimatorPlayWait(BowlAnimation7,Bowl,0);
 
           AnimatorPlay(Idle,Bowl);'
         type: 0
@@ -2925,8 +2925,8 @@ MonoBehaviour:
         y: 2648.847
         width: 160
         height: 30
-    canvasScrollPosition: {x: 1423.0913, y: 407.49142}
-    canvasZoom: 0.8499994
+    canvasScrollPosition: {x: 1136.5782, y: 2101.2273}
+    canvasZoom: 0.69999975
   - id: 3
     fields:
     - title: Title
