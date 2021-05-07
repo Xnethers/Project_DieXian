@@ -2,7 +2,7 @@
   "source": "Unity",
   "applications": [
     {
-      "app_key": "application.generated.unity.DieXian.exe",
+      "app_key": "application.generated.unity.diexian.exe",
       "launch_type": "url",
       "url": "steam://launch/",
       "action_manifest_path": "C:\\Users\\MAA\\Documents\\Project_DieXian\\Assets\\StreamingAssets\\SteamVR\\actions.json",
