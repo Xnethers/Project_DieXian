@@ -348,7 +348,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: Delay({{end}})@500
+        value: 
         type: 0
         typeString: CustomFieldType_Text
       - title: Response Menu Sequence
@@ -378,8 +378,8 @@ MonoBehaviour:
         y: 122.685196
         width: 160
         height: 30
-    canvasScrollPosition: {x: 0, y: 1.369873}
-    canvasZoom: 0.73000014
+    canvasScrollPosition: {x: 0, y: 0}
+    canvasZoom: 0.85
   - id: 2
     fields:
     - title: Title
@@ -1835,7 +1835,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "\u90A3\uFF0C\u90A3\u4E9B\u6B3A\u8CA0\u6211\u7684\u4EBA\uFF0C\u5C07\u4F86\u6703\u5F97\u5230\u61C9\u6709\u7684\u5831\u61C9\u55CE\uFF1F"
+        value: "\u90A3\u4E9B\u6B3A\u8CA0\u6211\u7684\u4EBA\uFF0C\u5C07\u4F86\u6703\u5F97\u5230\u61C9\u6709\u7684\u5831\u61C9\u55CE\uFF1F"
         type: 0
         typeString: 
       - title: Parenthetical
@@ -1851,7 +1851,9 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: Delay(3);
+        value: 'Delay(3);
+
+          Delay({{end}});'
         type: 0
         typeString: 
       conversationID: 2
@@ -2188,7 +2190,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: 'AnimatorPlayWait(BowlAnimation3,Bowl,0);
+        value: 'AnimatorPlayWait(BowlAnimation5,Bowl,0);
 
           AnimatorPlay(Idle,Bowl);'
         type: 0
@@ -2269,7 +2271,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: 'AnimatorPlayWait(BowlAnimation4,Bowl,0);
+        value: 'AnimatorPlayWait(BowlAnimation6,Bowl,0);
 
           AnimatorPlay(Idle,Bowl);'
         type: 0
@@ -2346,7 +2348,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: 'AnimatorPlayWait(BowlAnimation2,Bowl,0);
+        value: 'AnimatorPlayWait(BowlAnimation4,Bowl,0);
 
           AnimatorPlay(Idle,Bowl);
 
@@ -2713,7 +2715,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: 'AnimatorPlayWait(BowlAnimation4,Bowl,0);
+        value: 'AnimatorPlayWait(BowlAnimation7,Bowl,0);
 
           AnimatorPlay(Idle,Bowl);'
         type: 0
@@ -2923,8 +2925,8 @@ MonoBehaviour:
         y: 2648.847
         width: 160
         height: 30
-    canvasScrollPosition: {x: 1127.5803, y: 701.5658}
-    canvasZoom: 0.6399996
+    canvasScrollPosition: {x: 1498.055, y: 1470.7714}
+    canvasZoom: 1.0299994
   - id: 3
     fields:
     - title: Title
@@ -3016,7 +3018,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: None()
+        value: Audio(BG-gameover,oneshot);
         type: 0
         typeString: 
       conversationID: 3
@@ -3047,7 +3049,7 @@ MonoBehaviour:
     - id: 1
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: Fade
         type: 0
         typeString: CustomFieldType_Text
       - title: Pictures
@@ -3109,7 +3111,7 @@ MonoBehaviour:
       - originConversationID: 3
         originDialogueID: 1
         destinationConversationID: 3
-        destinationDialogueID: 2
+        destinationDialogueID: 4
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -3119,16 +3121,16 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 352.18558
-        y: 257.17523
+        x: 349.8327
+        y: 243.05756
         width: 160
         height: 30
     - id: 2
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: ShowGhost
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: Pictures
         value: '[]'
         type: 3
@@ -3136,7 +3138,7 @@ MonoBehaviour:
       - title: Description
         value: 
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: Actor
         value: -1
         type: 5
@@ -3148,15 +3150,15 @@ MonoBehaviour:
       - title: Menu Text
         value: 
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: Dialogue Text
         value: 
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: Parenthetical
         value: 
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: Audio Files
         value: '[]'
         type: 3
@@ -3164,19 +3166,19 @@ MonoBehaviour:
       - title: Video File
         value: 
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: Sequence
-        value: Delay(5);
+        value: Delay(3.84);
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: EventGuid
         value: a96c790e-798d-4b0a-a5e6-74c3cbf9e6b8
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: Response Menu Sequence
         value: 
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       conversationID: 3
       isRoot: 0
       isGroup: 0
@@ -3198,14 +3200,14 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 353.21652
-        y: 320.5773
+        x: 349.68707
+        y: 382.93024
         width: 160
         height: 30
     - id: 3
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: GoBackToMenu
         type: 0
         typeString: CustomFieldType_Text
       - title: Pictures
@@ -3267,12 +3269,87 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 352.1856
-        y: 385.01028
+        x: 352.18558
+        y: 450.89264
         width: 160
         height: 30
-    canvasScrollPosition: {x: 103.66974, y: 85.9145}
-    canvasZoom: 0.85000014
+    - id: 4
+      fields:
+      - title: Title
+        value: WaitInBlack
+        type: 0
+        typeString: 
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: -1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: Delay(4.16);
+        type: 0
+        typeString: 
+      - title: EventGuid
+        value: f87d2b7c-4a57-4954-ab6b-1f01f75fa046
+        type: 0
+        typeString: 
+      conversationID: 3
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 3
+        originDialogueID: 4
+        destinationConversationID: 3
+        destinationDialogueID: 2
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 348.65622
+        y: 314.234
+        width: 160
+        height: 30
+    canvasScrollPosition: {x: 114.648834, y: 160.23209}
+    canvasZoom: 1.0899999
   syncInfo:
     syncActors: 0
     syncItems: 0
