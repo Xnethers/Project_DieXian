@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Timer : MonoBehaviour
 {
@@ -9,9 +10,12 @@ public class Timer : MonoBehaviour
     public bool isRunning;
     public bool isDone;
     public float timeRemaining;
-    
 
-    private void Awake() 
+    [Header("UI")]
+    public Renderer redRing;
+
+
+    private void Awake()
     {
         if (instance == null)
         {
@@ -30,7 +34,6 @@ public class Timer : MonoBehaviour
             }
             else
             {
-                Debug.Log(timeRemaining);
                 // timeRemaining = 0;
                 isRunning = false;
                 isDone = true;
@@ -46,14 +49,22 @@ public class Timer : MonoBehaviour
 
     public void StartTimer()
     {
-        Debug.Log("StartTimer");
-        timeRemaining = UISelectTime;
-        isRunning = true;
+        if (!isRunning)
+        {
+            Debug.Log("Start Timer");
+            timeRemaining = UISelectTime;
+            isRunning = true;
+        }
     }
 
     public void Stop()
     {
-        isRunning = false;
-        isDone = true;        
+        if (isRunning)
+        {
+            Debug.Log("Stop Timer");
+            isRunning = false;
+            isDone = true;
+        }
+
     }
 }

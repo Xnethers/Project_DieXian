@@ -1,9 +1,9 @@
 {
   "dependencies": {
     "com.tobii.xr.sdk": {
-      "version": "file:D:/奕均的暫時空間/Panpan/TobiiXRSDK_3.0.1.179",
+      "version": "file:TobiiXRSDK_3.0.1.179",
       "depth": 0,
-      "source": "local",
+      "source": "embedded",
       "dependencies": {
         "com.unity.xr.management": "3.2.16"
       }
