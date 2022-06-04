@@ -1,9 +1,12 @@
-﻿Shader "Sprites/FillAmount"
+﻿Shader "Sprites/Fill Amount"
 {
 	Properties
 	{
 		[PerRendererData] _MainTex ("Sprite Texture", 2D) = "white" {}
 		_Color ("Tint", Color) = (1,1,1,1)
+        _Angle("Angle", Range(0, 360)) = 0
+        _Arc1("Arc Point 1", Range(0, 360)) = 15
+        _Arc2("Fill Amount", Range(0, 360)) = 15
 		[MaterialToggle] PixelSnap ("Pixel snap", Float) = 0
 	}
 
@@ -36,7 +39,7 @@
 			{
 				float4 vertex   : POSITION;
 				float4 color    : COLOR;
-				float2 uv : TEXCOORD0;
+				float2 texcoord : TEXCOORD0;
 				UNITY_VERTEX_INPUT_INSTANCE_ID
 			};
 
@@ -44,33 +47,36 @@
 			{
 				float4 vertex   : SV_POSITION;
 				fixed4 color    : COLOR;
-				float2 uv  : TEXCOORD0;
+				float2 texcoord  : TEXCOORD0;
 				UNITY_VERTEX_OUTPUT_STEREO
 			};
 			
 			fixed4 _Color;
 
-			v2f vert(appdata_t v)
+			v2f vert(appdata_t IN)
 			{
-				v2f o;
+				v2f OUT;
 
-				UNITY_SETUP_INSTANCE_ID(v);
-				UNITY_INITIALIZE_OUTPUT(v2f, o);
-				UNITY_INITIALIZE_VERTEX_OUTPUT_STEREO(o);
+				UNITY_SETUP_INSTANCE_ID(IN);
+				UNITY_INITIALIZE_OUTPUT(v2f, OUT);
+				UNITY_INITIALIZE_VERTEX_OUTPUT_STEREO(OUT);
 
-				o.vertex = UnityObjectToClipPos(v.vertex);
-				o.uv = v.uv;
-				o.color = v.color * _Color;
-#ifdef PIXELSNAP_ON
-				o.vertex = UnityPixelSnap (o.vertex);
-#endif
+				OUT.vertex = UnityObjectToClipPos(IN.vertex);
+				OUT.texcoord = IN.texcoord;
+				OUT.color = IN.color * _Color;
+				#ifdef PIXELSNAP_ON
+				OUT.vertex = UnityPixelSnap (OUT.vertex);
+				#endif
 
-				return o;
+				return OUT;
 			}
 
 			sampler2D _MainTex;
 			sampler2D _AlphaTex;
 			float _AlphaSplitEnabled;
+			float _Angle;
+			float _Arc1;
+			float _Arc2;
 
 			fixed4 SampleSpriteTexture (float2 uv)
 			{
@@ -84,10 +90,31 @@
 				return color;
 			}
 
-			fixed4 frag(v2f i) : SV_Target
+			fixed4 frag(v2f IN) : SV_Target
 			{
-				fixed4 c = SampleSpriteTexture (i.uv) * i.color;
+				fixed4 c = SampleSpriteTexture (IN.texcoord) * IN.color;
 				c.rgb *= c.a;
+
+                //-------- Creating arc --------//
+                // sector start/end angles
+                float startAngle = _Angle - _Arc1;
+                float endAngle = _Angle + _Arc2;
+
+                // check offsets
+                float offset0 = clamp(0, 360, startAngle + 360);
+                float offset360 = clamp(0, 360, endAngle - 360);
+
+                // convert uv to atan coordinates
+                float2 atan2Coord = float2(lerp(-1, 1, IN.texcoord.x), lerp(-1, 1, IN.texcoord.y));
+                float atanAngle = atan2(atan2Coord.y, atan2Coord.x) * 57.3; // angle in degrees
+
+                // convert angle to 360 system
+                if(atanAngle < 0) atanAngle = 360 + atanAngle;
+
+                if(atanAngle >= startAngle && atanAngle <= endAngle) discard;
+                if(atanAngle <= offset360) discard;
+                if(atanAngle >= offset0) discard;
+
 				return c;
 			}
 		ENDCG

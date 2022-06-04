@@ -2925,8 +2925,8 @@ MonoBehaviour:
         y: 2648.847
         width: 160
         height: 30
-    canvasScrollPosition: {x: 1498.055, y: 1470.7714}
-    canvasZoom: 1.0299994
+    canvasScrollPosition: {x: 1332.1017, y: 472.34952}
+    canvasZoom: 0.9999994
   - id: 3
     fields:
     - title: Title
@@ -3278,7 +3278,7 @@ MonoBehaviour:
       - title: Title
         value: WaitInBlack
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: Pictures
         value: '[]'
         type: 3
@@ -3286,7 +3286,7 @@ MonoBehaviour:
       - title: Description
         value: 
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: Actor
         value: -1
         type: 5
@@ -3298,15 +3298,15 @@ MonoBehaviour:
       - title: Menu Text
         value: 
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: Dialogue Text
         value: 
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: Parenthetical
         value: 
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: Audio Files
         value: '[]'
         type: 3
@@ -3314,15 +3314,15 @@ MonoBehaviour:
       - title: Video File
         value: 
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: Sequence
         value: Delay(4.16);
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: EventGuid
         value: f87d2b7c-4a57-4954-ab6b-1f01f75fa046
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       conversationID: 3
       isRoot: 0
       isGroup: 0
@@ -3348,8 +3348,8 @@ MonoBehaviour:
         y: 314.234
         width: 160
         height: 30
-    canvasScrollPosition: {x: 114.648834, y: 160.23209}
-    canvasZoom: 1.0899999
+    canvasScrollPosition: {x: 39.62262, y: 124.045456}
+    canvasZoom: 1.06
   syncInfo:
     syncActors: 0
     syncItems: 0

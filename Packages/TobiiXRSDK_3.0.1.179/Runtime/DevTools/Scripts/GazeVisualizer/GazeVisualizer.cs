@@ -15,13 +15,14 @@ namespace Tobii.XR
         }
 
         public bool ScaleAffectedByPrecision;
+        public bool notSetScale;
 
 #pragma warning disable 649
         [SerializeField] private GazeVisualizerType _visualizerType;
 
         [SerializeField] private bool _smoothMove = true;
 
-        [SerializeField] [Range(1, 30)] private int _smoothMoveSpeed = 7;
+        [SerializeField][Range(1, 30)] private int _smoothMoveSpeed = 7;
 #pragma warning restore 649
 
         private float ScaleFactor
@@ -38,7 +39,7 @@ namespace Tobii.XR
 
         private const float OffsetFromFarClipPlane = 10f;
         private const float PrecisionAngleScaleFactor = 5f;
-        
+
         private void Start()
         {
             _mainCamera = CameraHelper.GetMainCamera();
@@ -57,8 +58,8 @@ namespace Tobii.XR
             EyeTrackingDataHelper.TransformGazeData(eyeTrackingData, localToWorldMatrix);
             var gazeModifierFilter = TobiiXR.Internal.Filter as GazeModifierFilter;
 
-            if (gazeModifierFilter != null) gazeModifierFilter.FilterAccuracyOnly(eyeTrackingData, worldForward);    
-            
+            if (gazeModifierFilter != null) gazeModifierFilter.FilterAccuracyOnly(eyeTrackingData, worldForward);
+
             var gazeRay = eyeTrackingData.GazeRay;
             _spriteRenderer.enabled = gazeRay.IsValid;
             if (_spriteRenderer.enabled == false) return;
@@ -86,7 +87,10 @@ namespace Tobii.XR
             var usedDirection = _smoothMove ? interpolatedGazeDirection.normalized : gazeRay.Direction.normalized;
             transform.position = gazeRay.Origin + usedDirection * distance;
 
-            transform.localScale = Vector3.one * distance * ScaleFactor;
+            if (!notSetScale)
+            {
+                transform.localScale = Vector3.one * distance * ScaleFactor;
+            }
 
             transform.forward = usedDirection.normalized;
 
@@ -95,7 +99,10 @@ namespace Tobii.XR
 
         private void UpdatePrecisionScale(float maxPrecisionAngleDegrees)
         {
-            transform.localScale *= (1f + GetScaleAffectedByPrecisionAngle(maxPrecisionAngleDegrees));
+            if (!notSetScale)
+            {
+                transform.localScale *= (1f + GetScaleAffectedByPrecisionAngle(maxPrecisionAngleDegrees));
+            }
         }
 
         private static float GetScaleAffectedByPrecisionAngle(float maxPrecisionAngleDegrees)

@@ -62,7 +62,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 0
   bloomLayerMaskDownsampling: 1
-  bloomIntensity: 0.91
+  bloomIntensity: 0.6
   bloomMaxBrightness: 1000
   bloomBoost0: 0
   bloomBoost1: 0

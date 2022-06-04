@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8032915627409709152}
   - component: {fileID: 8032915627410072064}
   - component: {fileID: 8032915627428249440}
-  - component: {fileID: 1786724886356692215}
+  - component: {fileID: 619007759}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -33,10 +33,10 @@ RectTransform:
   m_Father: {fileID: 8032915627409906866}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 135, y: 74}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 1, y: 1}
 --- !u!222 &8032915627410072064
 CanvasRenderer:
@@ -75,7 +75,7 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &1786724886356692215
+--- !u!114 &619007759
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -88,12 +88,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DoNotTesselate: 0
-  savedPos: {x: 1, y: 25.749996, z: 0.0000068410227}
-  savedUp: {x: 0, y: 1, z: 0}
-  savedRectSize: {x: 93, y: 74}
-  savedColor: {r: 1, g: 1, b: 1, a: 1}
+  savedPos: {x: 0, y: 0, z: 0}
+  savedUp: {x: 0, y: 0, z: 0}
+  savedRectSize: {x: 0, y: 0}
+  savedColor: {r: 0, g: 0, b: 0, a: 0}
   savedTextUV0: {x: 0, y: 0}
-  savedFill: 1
+  savedFill: 0
 --- !u!1 &8032915627421683562
 GameObject:
   m_ObjectHideFlags: 0
@@ -107,10 +107,10 @@ GameObject:
   - component: {fileID: 8032915627428271892}
   - component: {fileID: 8032915627428053434}
   - component: {fileID: 8032915627428236168}
-  - component: {fileID: 1391803712650422003}
   - component: {fileID: 8330174410564122951}
+  - component: {fileID: 367816729}
   m_Layer: 5
-  m_Name: Button 1 Text
+  m_Name: Button Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -130,10 +130,10 @@ RectTransform:
   m_Father: {fileID: 8032915627409906866}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 160, y: 85}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 1, y: 1}
 --- !u!222 &8032915627409762230
 CanvasRenderer:
@@ -164,7 +164,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 20
+    m_FontSize: 25
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
@@ -175,7 +175,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Response 1
+  m_Text: 'Response '
 --- !u!114 &8032915627428053434
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -206,25 +206,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0, g: 0, b: 0, a: 0.6}
   m_EffectDistance: {x: -1, y: -1}
   m_UseGraphicAlpha: 1
---- !u!114 &1391803712650422003
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8032915627421683562}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e62188adca544cf1b96ccf1630f15f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  DoNotTesselate: 0
-  savedPos: {x: -270.75, y: 91.749985, z: 0.0000068410227}
-  savedUp: {x: 0, y: 1, z: 0}
-  savedRectSize: {x: 355.5, y: 52}
-  savedColor: {r: 1, g: 1, b: 1, a: 1}
-  savedTextUV0: {x: 0.09765625, y: 0.265625}
-  savedFill: 0
 --- !u!114 &8330174410564122951
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -240,6 +221,25 @@ MonoBehaviour:
   m_EffectColor: {r: 0, g: 0, b: 0, a: 0.6}
   m_EffectDistance: {x: 1, y: 1}
   m_UseGraphicAlpha: 1
+--- !u!114 &367816729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8032915627421683562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e62188adca544cf1b96ccf1630f15f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DoNotTesselate: 0
+  savedPos: {x: 0, y: 0, z: 0}
+  savedUp: {x: 0, y: 0, z: 0}
+  savedRectSize: {x: 0, y: 0}
+  savedColor: {r: 0, g: 0, b: 0, a: 0}
+  savedTextUV0: {x: 0, y: 0}
+  savedFill: 0
 --- !u!1 &8032915627421684414
 GameObject:
   m_ObjectHideFlags: 0
@@ -255,7 +255,6 @@ GameObject:
   - component: {fileID: 8032915627428183006}
   - component: {fileID: 8032915627428265596}
   - component: {fileID: 8032915627428177000}
-  - component: {fileID: 1728846139831265630}
   - component: {fileID: 6789073366167240932}
   - component: {fileID: 4806428268790183081}
   m_Layer: 5
@@ -281,10 +280,10 @@ RectTransform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 85}
+  m_SizeDelta: {x: 200, y: 85}
   m_Pivot: {x: 1, y: 1}
 --- !u!222 &8032915627410105258
 CanvasRenderer:
@@ -452,25 +451,6 @@ MonoBehaviour:
     m_uiText: {fileID: 8032915627428271892}
   setLabelColor: 1
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
---- !u!114 &1728846139831265630
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8032915627421684414}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e62188adca544cf1b96ccf1630f15f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  DoNotTesselate: 0
-  savedPos: {x: 0, y: 0, z: 0}
-  savedUp: {x: 0, y: 1, z: 0}
-  savedRectSize: {x: 448.5, y: 85}
-  savedColor: {r: 0.8962264, g: 0.78039217, b: 0.004227493, a: 0.8784314}
-  savedTextUV0: {x: 0, y: 0}
-  savedFill: 1
 --- !u!114 &6789073366167240932
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -496,5 +476,5 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 181.55771, y: 36.50586, z: 1}
-  m_Center: {x: -51.415543, y: -41.93982, z: 0}
+  m_Size: {x: 200, y: 85, z: 20}
+  m_Center: {x: -100, y: -42.5, z: 0}

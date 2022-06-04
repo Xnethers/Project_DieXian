@@ -623,10 +623,10 @@ PlayerSettings:
     m_VersionCode: 1
     m_VersionName: 
   apiCompatibilityLevel: 6
-  cloudProjectId: 17f662e0-0048-4019-a1de-e0dca2d96b88
+  cloudProjectId: 
   framebufferDepthMemorylessMode: 0
-  projectName: DieXian
-  organizationId: kkyou19
+  projectName: 
+  organizationId: 
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0

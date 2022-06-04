@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEditor;
 
 public class Timer : MonoBehaviour
 {
@@ -13,6 +14,7 @@ public class Timer : MonoBehaviour
 
     [Header("UI")]
     public Renderer redRing;
+    public Button selectButton;
 
 
     private void Awake()
@@ -31,27 +33,34 @@ public class Timer : MonoBehaviour
             if (timeRemaining > 0)
             {
                 timeRemaining -= Time.deltaTime;
+                float t = 360 * (timeRemaining / UISelectTime);
+                redRing.material.SetFloat("_Arc1", t);
             }
             else
             {
                 // timeRemaining = 0;
                 isRunning = false;
                 isDone = true;
+                selectButton.onClick.Invoke();
             }
         }
     }
 
-    public void StartTimer(float countdown)
+    public void StartTimer(Button select, float countdown)
     {
-        timeRemaining = countdown;
-        isRunning = true;
+        if (!isRunning)
+        {
+            timeRemaining = UISelectTime = countdown;
+            isRunning = true;
+        }
     }
 
-    public void StartTimer()
+    public void StartTimer(Button select)
     {
         if (!isRunning)
         {
             Debug.Log("Start Timer");
+            selectButton = select;
             timeRemaining = UISelectTime;
             isRunning = true;
         }
@@ -62,8 +71,10 @@ public class Timer : MonoBehaviour
         if (isRunning)
         {
             Debug.Log("Stop Timer");
+            selectButton = null;
             isRunning = false;
-            isDone = true;
+            isDone = false;
+            redRing.material.SetFloat("_Arc1", 360);
         }
 
     }

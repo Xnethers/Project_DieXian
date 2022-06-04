@@ -31,7 +31,7 @@ public class UI_Button : MonoBehaviour, IGazeFocusable
         if (hasFocus)
         {
             txt.color = highlightColor;
-            Timer.instance.StartTimer();
+            Timer.instance.StartTimer(this.GetComponent<Button>());
         }
         //If this object lost focus, fade the object's color to it's original color
         else
