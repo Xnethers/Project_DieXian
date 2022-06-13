@@ -96,10 +96,10 @@ MonoBehaviour:
   anamorphicFlaresVertical: 0
   anamorphicFlaresTint: {r: 0.5, g: 0.5, b: 1, a: 0}
   anamorphicFlaresBlur: 1
-  depthOfField: 1
+  depthOfField: 0
   depthOfFieldTransparencySupport: 0
   depthOfFieldTargetFocus: {fileID: 0}
-  depthOfFieldAutofocus: 1
+  depthOfFieldAutofocus: 0
   depthofFieldAutofocusViewportPoint: {x: 0.5, y: 0.5}
   depthOfFieldAutofocusLayerMask:
     serializedVersion: 2

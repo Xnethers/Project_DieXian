@@ -23,6 +23,7 @@ public class Timer : MonoBehaviour
         {
             instance = this;
         }
+        ResetTimer();
     }
 
     // Update is called once per frame
@@ -38,10 +39,10 @@ public class Timer : MonoBehaviour
             }
             else
             {
-                // timeRemaining = 0;
                 isRunning = false;
                 isDone = true;
                 selectButton.onClick.Invoke();
+                ResetTimer();
             }
         }
     }
@@ -77,5 +78,12 @@ public class Timer : MonoBehaviour
             redRing.material.SetFloat("_Arc1", 360);
         }
 
+    }
+
+    public void ResetTimer()
+    {
+        selectButton = null;
+        timeRemaining = UISelectTime;
+        redRing.material.SetFloat("_Arc1", 360);
     }
 }

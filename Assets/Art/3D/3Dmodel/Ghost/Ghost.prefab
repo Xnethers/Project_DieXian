@@ -266,7 +266,7 @@ SkinnedMeshRenderer:
   m_Quality: 2
   m_UpdateWhenOffscreen: 1
   m_SkinnedMotionVectors: 1
-  m_Mesh: {fileID: 4300000, guid: e942d7fe6d068e84eaea4103062508b8, type: 2}
+  m_Mesh: {fileID: 0}
   m_Bones:
   - {fileID: 1200076322256564903}
   - {fileID: 8391762857575906327}
@@ -539,7 +539,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &293526480512557130
 Transform:
   m_ObjectHideFlags: 0
@@ -549,7 +549,7 @@ Transform:
   m_GameObject: {fileID: 1105915647246695152}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 5.53, y: 3.91, z: 6.15}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.4871796, y: 1.4871796, z: 1.4871796}
   m_Children:
   - {fileID: 774914635819352845}
   - {fileID: 1923044646251080715}
@@ -565,7 +565,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1105915647246695152}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 9000000, guid: af8e4dc6fd5e4ad4caf68d84a5b3618e, type: 3}
   m_Controller: {fileID: 9100000, guid: 7adbbc037369dd74082c848cc294d578, type: 2}
   m_CullingMode: 0
@@ -2228,7 +2228,7 @@ SkinnedMeshRenderer:
   m_Quality: 2
   m_UpdateWhenOffscreen: 1
   m_SkinnedMotionVectors: 1
-  m_Mesh: {fileID: 4300000, guid: e942d7fe6d068e84eaea4103062508b8, type: 2}
+  m_Mesh: {fileID: -7635833142262147536, guid: af8e4dc6fd5e4ad4caf68d84a5b3618e, type: 3}
   m_Bones:
   - {fileID: 1200076322256564903}
   - {fileID: 8391762857575906327}
@@ -2499,7 +2499,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &6571510446763145849
 Transform:
   m_ObjectHideFlags: 0
@@ -3546,7 +3546,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &3666390165479943060
 Transform:
   m_ObjectHideFlags: 0
@@ -4089,7 +4089,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2679766986133816793
 Transform:
   m_ObjectHideFlags: 0
