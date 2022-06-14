@@ -8195,21 +8195,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ghost
       objectReference: {fileID: 0}
-    - target: {fileID: 5164629943749913431, guid: e4704ac4c356f564c9fc47dc7dac28f0,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7262570401645176793, guid: e4704ac4c356f564c9fc47dc7dac28f0,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8489675752799711108, guid: e4704ac4c356f564c9fc47dc7dac28f0,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e4704ac4c356f564c9fc47dc7dac28f0, type: 3}
 --- !u!1 &1308141662
