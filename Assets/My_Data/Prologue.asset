@@ -348,7 +348,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: 
+        value: Delay(10);
         type: 0
         typeString: CustomFieldType_Text
       - title: Response Menu Sequence
@@ -374,7 +374,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 383.19098
+        x: 382.48676
         y: 122.685196
         width: 160
         height: 30
@@ -2882,7 +2882,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: Delay(4);
+        value: Delay(5);
         type: 0
         typeString: CustomFieldType_Text
       - title: EventGuid
@@ -3030,7 +3030,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: Delay(4);
+        value: Delay(5);
         type: 0
         typeString: CustomFieldType_Text
       - title: EventGuid

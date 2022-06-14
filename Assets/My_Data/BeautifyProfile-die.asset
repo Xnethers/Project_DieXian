@@ -34,11 +34,11 @@ MonoBehaviour:
   hardLightIntensity: 0.5
   hardLightBlend: 0
   vignetting: 1
-  vignettingColor: {r: 1, g: 0, b: 0.10843372, a: 0.043137256}
-  vignettingFade: 0.458
+  vignettingColor: {r: 1, g: 0, b: 0, a: 0.05882353}
+  vignettingFade: 0.468
   vignettingCircularShape: 0
-  vignettingAspectRatio: 1
-  vignettingBlink: 0.277
+  vignettingAspectRatio: 0
+  vignettingBlink: 0.503
   vignettingBlinkStyle: 0
   vignettingMask: {fileID: 0}
   vignettingCenter: {x: 0.5, y: 0.5}
@@ -54,8 +54,8 @@ MonoBehaviour:
   outlineColor: {r: 0, g: 0, b: 0, a: 0.8}
   thermalVision: 0
   lensDirt: 0
-  lensDirtThreshold: 0.5
-  lensDirtIntensity: 0.9
+  lensDirtThreshold: 0.345
+  lensDirtIntensity: 1
   lensDirtTexture: {fileID: 0}
   bloom: 1
   bloomCullingMask:
@@ -131,8 +131,8 @@ MonoBehaviour:
   depthOfFieldTransparencyLayerMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  eyeAdaptation: 0
-  eyeAdaptationMinExposure: 0.2
+  eyeAdaptation: 1
+  eyeAdaptationMinExposure: 0.21
   eyeAdaptationMaxExposure: 5
   eyeAdaptationSpeedToLight: 0.4
   eyeAdaptationSpeedToDark: 0.2
